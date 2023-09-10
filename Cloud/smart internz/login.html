@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="div-box">
+      <div class="nav-bar">
+        <div>
+          <h1>university</h1>
+        </div>
+        <div>
+          <a href="/">Home</a>
+          <a href="contact.html">contact</a>
+        </div>
+      </div>
+      <form class="login-div" action="/" method="post" autocomplete="off">
+        <p>Please Enter Your Email and Password!</p>
+        <div class="inp-box">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" />
+        </div>
+        <div class="inp-box">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="inp-box">
+          <label for="role">Role</label>
+          <select name="role" id="role">
+            <option value="student" selected>student</option>
+            <option value="admin">admin</option>
+            <option value="faculty">faculty</option>
+          </select>
+        </div>
+        <a href="#" id="forgot-password">Forgot Password?</a>
+        <input type="submit" value="Login" id="yellow" />
+      </form>
+    </div>
+  </body>
+</html>
